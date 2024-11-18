@@ -2,7 +2,7 @@
 
 # Mux
 
-<img src="./Mus.png"/>
+<img src="./Mux.png"/>
 
 # DMux
 <img src="./DMux.png"/>

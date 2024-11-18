@@ -1,0 +1,9 @@
+CHIP DMux {
+    IN a,sel;
+    OUT x,y;
+    PARTS:
+    Nand(a=sel, b=sel, out=nout);
+    And(a=a, b=sel,out=x);
+    And(a=a, b=nout, out=y);
+    
+}
